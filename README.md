@@ -16,6 +16,18 @@ Download latest .zip from releases.
 
 Unzip to your preferred location.
 
+Go to the project directory
+
+```bash
+  cd streamsky
+```
+
+Install dependencies
+
+```bash
+  pip install -r requirements.txt
+```
+
 Then make sure to navigate in OBS to **Tools**
 
 Finally select Scripts and select the + symbol, then navigate to where you installed the project and select streamsky.py
