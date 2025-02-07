@@ -90,7 +90,7 @@ def push_stream_to_bluesky():
 
     print(obs.obs_frontend_get_streaming_output())
     stream_info = [
-        'TEST_MODE\n',
+        # 'TEST_MODE\n',
         'I have started streaming on Twitch !\n',
         f'Find my stream at:'
     ]
