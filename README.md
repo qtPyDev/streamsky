@@ -2,10 +2,6 @@
 
 Streamsky is an application that allows for bluesky push notifications when stream starts.
 
-## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
 ## Features
 
 - Login to Bluesky from OBS
