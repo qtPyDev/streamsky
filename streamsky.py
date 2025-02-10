@@ -68,7 +68,7 @@ def login(*args):
 
 
 def check_if_streaming(*args):
-    if obs.obs_frontend_recording_active() is True:
+    if obs.obs_frontend_streaming_active() is True:
         print('stream started')
         log.info('stream started')
         push_stream_to_bluesky()
@@ -77,7 +77,7 @@ def check_if_streaming(*args):
 
 
 def check_if_not_streaming(*args):
-    if obs.obs_frontend_recording_active() is False:
+    if obs.obs_frontend_streaming_active() is False:
         print('stream stopped')
         log.info('stream stopped')
         obs.remove_current_callback()
@@ -88,7 +88,6 @@ def push_stream_to_bluesky():
     global streampathURL
     global blueskyProfile
 
-    print(obs.obs_frontend_get_streaming_output())
     stream_info = [
         # 'TEST_MODE\n',
         'I have started streaming on Twitch !\n',
